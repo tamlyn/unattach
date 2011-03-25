@@ -1,4 +1,4 @@
-=== Regenerate Thumbnails ===
+=== Unattach ===
 Contributors: tamlyn
 Tags: unattach, media, attachments
 Requires at least: 3.1
