@@ -24,6 +24,10 @@ As of WordPress 3.1, the only way to detach a media item from a post is to delet
 
 == ChangeLog ==
 
+= Version 1.0.1 =
+
+* Fixed bug that prevented redirecting back to Media Library on some systems.
+
 = Version 1.0.0 =
 
 * Initial release.

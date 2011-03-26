@@ -3,14 +3,14 @@
 Plugin Name:  Unattach
 Plugin URI:   http://outlandishideas.co.uk/blog/2011/03/unattach/
 Description:  Allows detaching images and other media from posts, pages and other content types.
-Version:      1.0
+Version:      1.0.1
 Author:       tamlyn
 **************************************************************************/
 
 //filter to add button to media library UI
 function unattach_media_row_action( $actions, $post ) {
 	if ($post->post_parent) {
-		$url = admin_url('tools.php?page=unattach&id=' . $post->ID);
+		$url = admin_url('tools.php?page=unattach&noheader=true&&id=' . $post->ID);
 		$actions['unattach'] = '<a href="' . esc_url( $url ) . '" title="' . __( "Unattach this media item.") . '">' . __( 'Unattach') . '</a>';
 	}
 
