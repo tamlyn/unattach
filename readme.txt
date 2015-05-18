@@ -3,7 +3,7 @@ Contributors: tamlyn
 Tags: unattach, detach, media, attachments
 Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 Allows detaching images and other media from posts, pages and other content types.
 
@@ -23,6 +23,10 @@ As of WordPress 4.2 this functionality is built in. For previous versions, the o
 4. Click activate.
 
 == ChangeLog ==
+
+= Version 1.2.2 =
+
+* Added Serbian translation.
 
 = Version 1.2.1 =
 
